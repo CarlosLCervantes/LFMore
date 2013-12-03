@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 18.875" name="LeetRaidsDB">
+  <DataContextMoniker Name="/LeetRaidsDBDataContext" />
+  <nestedChildShapes>
+    <classShape Id="06212bce-f16c-454d-a940-dc3d3aaad80f" absoluteBounds="2.75, 2.625, 2, 1.3862939453125">
+      <DataClassMoniker Name="/LeetRaidsDBDataContext/MemGame" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1dc4d2bb-13c9-4561-9179-d5d22d3cb484" absoluteBounds="2.765, 3.085, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="860c5733-cf2d-4e80-ab50-accd9d0d972e" absoluteBounds="7.375, 2.5, 2, 1.3862939453125">
+      <DataClassMoniker Name="/LeetRaidsDBDataContext/Faction" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f26b5383-23c8-4a90-a430-96f26279d391" absoluteBounds="7.3900000000000006, 2.96, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2694aaea-4546-4b37-8d46-36d282dbb3ee" absoluteBounds="2.75, 0.5, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/LeetRaidsDBDataContext/Game" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f024d2e8-2fa9-4047-8ed0-8e5817f2bfdb" absoluteBounds="2.7649999999999997, 0.96, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="82d6ebd1-4a4e-47e9-867c-64d7a5fe2a74" absoluteBounds="0.5, 0.5, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/LeetRaidsDBDataContext/Server" />
+      <nestedChildShapes>
+        <elementListCompartment Id="30c39782-4745-4916-9ee4-90db75e892b4" absoluteBounds="0.51499999999999968, 0.96, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4f7d63c3-de03-4c07-9982-8daa2d9b468b" absoluteBounds="0.5, 17.25, 2, 1.3862939453124987">
+      <DataClassMoniker Name="/LeetRaidsDBDataContext/EventGroup" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0863bf9c-387a-41b2-8cdd-5056fbe89d74" absoluteBounds="0.515, 17.71, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6ef6f97e-d43a-4515-858f-e06f78c6295d" absoluteBounds="5.125, 5.75, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/LeetRaidsDBDataContext/EventGroupSubType" />
+      <nestedChildShapes>
+        <elementListCompartment Id="995ab79b-f908-4411-a05a-caa9e4d60553" absoluteBounds="5.1400000000000006, 6.2100000000000009, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0567d4bd-45ab-405a-bdf0-d16eeedf2690" absoluteBounds="5.25, 0.5, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/LeetRaidsDBDataContext/Class" />
+      <nestedChildShapes>
+        <elementListCompartment Id="970ec4e4-9e53-4764-9dd7-7308e5a3abe9" absoluteBounds="5.265, 0.96, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8ef05952-c35e-4a87-9651-7d65267f41bd" absoluteBounds="7.5, 0.5, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/LeetRaidsDBDataContext/Role" />
+      <nestedChildShapes>
+        <elementListCompartment Id="70301817-891d-42ff-93fc-ac0cf538fae2" absoluteBounds="7.5150000000000006, 0.96, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d2b25b72-1248-4afd-850a-7e8dfa7ed318" absoluteBounds="7.5, 7.625, 2, 1.3862939453125">
+      <DataClassMoniker Name="/LeetRaidsDBDataContext/ClassRole" />
+      <nestedChildShapes>
+        <elementListCompartment Id="59f12cb5-d886-4e71-b13e-9e52665cf9c4" absoluteBounds="7.515, 8.085, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="733d1be0-af77-4a63-b954-31cdd3a58f12" absoluteBounds="0.5, 7.875, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/LeetRaidsDBDataContext/MemCharacterRole" />
+      <nestedChildShapes>
+        <elementListCompartment Id="21e122b2-e57e-45ae-b4e4-ad89099d637d" absoluteBounds="0.51500000000000012, 8.335, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="cf52455f-a49f-4917-b33a-f24275eebdb0" absoluteBounds="2.75, 7.625, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/LeetRaidsDBDataContext/RoleRestriction" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9a38c6c9-4e90-46d8-9c7c-0795571035b5" absoluteBounds="2.765, 8.085, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="9d254783-5c0f-44c9-8170-9268a0e9653e" absoluteBounds="0.5, 9.875, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/LeetRaidsDBDataContext/MemFriend" />
+      <nestedChildShapes>
+        <elementListCompartment Id="cce6af81-9b93-4190-b3ae-3753e6c9d05b" absoluteBounds="0.51500000000000012, 10.335, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4551aa22-7daa-4131-a35f-1eb18972b36e" absoluteBounds="5.25, 7.75, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/LeetRaidsDBDataContext/EventAttendee" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9ccd1e1d-9f3a-4c43-b051-86dbdcafe035" absoluteBounds="5.265, 8.21, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="70b52bf6-9723-4fdc-bedf-2be66dbf4214" absoluteBounds="0.5, 5.25, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/LeetRaidsDBDataContext/EventRestriction" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ba86b753-3ac8-4d87-8edd-64cc8531c5b2" absoluteBounds="0.51500000000000012, 5.71, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ccc19ce9-5183-428e-a168-67616040401d" absoluteBounds="0.5, 2.375, 2, 2.5401025390625">
+      <DataClassMoniker Name="/LeetRaidsDBDataContext/Member" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a36da1a9-70a6-49f7-9b06-95ca693fbe7f" absoluteBounds="0.515, 2.835, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2fe9458f-4532-4db3-8f6b-c578c50d3d24" absoluteBounds="5.125, 2.5, 2, 2.9247054036458331">
+      <DataClassMoniker Name="/LeetRaidsDBDataContext/MemCharacter" />
+      <nestedChildShapes>
+        <elementListCompartment Id="46081be6-7ad3-4475-a780-5c2067310ab1" absoluteBounds="5.14, 2.96, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b1eb226c-8941-482e-b824-d38533fd3986" absoluteBounds="2.875, 9.75, 2, 1.9631982421875">
+      <DataClassMoniker Name="/LeetRaidsDBDataContext/Invite" />
+      <nestedChildShapes>
+        <elementListCompartment Id="85845bcb-92dd-4226-a1a6-15d169cf3c0b" absoluteBounds="2.8899999999999997, 10.21, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="266650af-18fa-410d-a417-51f72c3b7924" absoluteBounds="2.875, 4.375, 2, 2.9247054036458331">
+      <DataClassMoniker Name="/LeetRaidsDBDataContext/Event" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c7f90de5-a312-4939-b3c2-72df47d078ca" absoluteBounds="2.89, 4.835, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="9ef782ff-80e1-434d-9cef-deca16205fe7" absoluteBounds="7.5, 4.375, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/LeetRaidsDBDataContext/EventType" />
+      <nestedChildShapes>
+        <elementListCompartment Id="58628841-04f6-42f0-97d9-209b6882b8c1" absoluteBounds="7.515, 4.835, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

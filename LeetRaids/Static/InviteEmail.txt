@@ -1,0 +1,11 @@
+﻿Your friend, [INVITERS_EMAIL], wants you to join in on the fun at LFMore.com
+Your spot in a [GAME_NAME] group for [EVENT_TYPE] is waiting for you here: [EVENT_LINK]
+Registration is a very quick and easy process, you can Register here: http://www.lfmore.com/Account/Register
+
+At LFMore you can easily Schedule, Manage, and Join MMO Events for many popular MMO Games.
+
+Here are some of the things we offer at LFMore:
+-Schedule and Manage all your events for many popular MMO Games all in one place from any computer.
+-See group overviews, filter attendees by various criteria, contact any player, and more all with a few clicks.
+-Built in support for MMO specific events makes it easier to manage your Raids, Dungeon Crawls, PvP Events, etc.
+-Find groups of players from our registry. Stop sitting around and spamming LFM/LFG!

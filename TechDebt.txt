@@ -1,0 +1,11 @@
+Connection Strings do not exist in a centralized location per project.
+
+Assuming Event Groups will never Exceed the basic PVP/PVE/Other Tier system. I made the JS render as many as neccesary, but the CSS expects only 3.
+
+Add New Event Groups do not expand
+
+displayCharacters Exists in both AddEvent.js and AddCharacters.js
+
+Possibly need to break up DPS into melee or ranged.
+
+Text fields for registration need to be password fields. - Don't do this until finishing touches

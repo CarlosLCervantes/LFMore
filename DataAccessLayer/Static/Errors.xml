@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<errors>
+  <error>
+    <code>01</code>
+    <name>NotAUniqueEmailAddress</name>
+    <description></description>
+    <displayText>The Email Address you requested is already taken by a current user.</displayText>
+  </error>
+  <error>
+    <code>02</code>
+    <name>TestError01</name>
+    <description></description>
+    <displayText>Test Error 1. This is just a test error.</displayText>
+  </error>
+  <error>
+    <code>03</code>
+    <name>TestError2</name>
+    <description></description>
+    <displayText>Test Error 1. This is just a test error.</displayText>
+  </error>
+</errors>

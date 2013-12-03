@@ -1,0 +1,323 @@
+﻿/*Debug*/
+/*div {border: 1px solid white;}
+table td {border: 1px solid white;}*/
+
+/*Main Layout*/
+body {background-color:#131313; font-family: font-family: Arial, Helvetica, sans-serif; font-size: 12px; padding: 0; margin: 0; color:#FFFFFF;}
+
+#container {background-color:#1C384C; min-height:100%; height:auto; width:1100px; margin: 0px auto; overflow: hidden; height: 100%; padding-bottom: 60px;}
+#mainTop {width:1000px; height:100px; margin:0 auto; }
+#mainLeft {background-color:#FFFFFF; float:left; height:800px;}
+#mainRight {background-color:#FFFFFF; height:800px; float:left;}
+
+#mainCenter {width:1000px; margin:0 auto; padding: 10px;}
+#mainContent {width:690px; float:left; margin-right:10px;}
+#sideContent {width:300px; float:left;}
+h1 {color:#FFFFFF; font-size: 23px;}
+h2 {color:#FFFFFF; font-size: 20px;}
+h3 {color:#FFFFFF; font-size: 18px;}
+h4 {color:#FFFFFF; font-size: 12px; font-weight:bold; display:inline;}/*Section Headers - I.E. Event Restrictions*/
+.clear {width: 100%; clear: both; display: inline-block;}
+.valMsg {visibility:hidden; color:Red; font-size: 1.1em;}
+.valMsgDynamic {display:none; color:Red; font-size: 1.1em;}
+.smallNote {font-size:10px; text-align:center; display:block; margin-bottom:1px;}
+.sideNote {font-size: .85em;}
+#imgLogo {float:left;}
+
+#fancy_ajax{background-color:#1C384C;}
+
+/*General*/
+form {margin-top:0px; margin-bottom:0px;}
+.parentContainer {margin: 0px auto 10px auto; background-color:#333333;}
+.colapseContainer {margin:10px auto; background-color:#333333;}
+/*.tblContainerHeader {width:100%; margin:0; padding:0; height:30px;}*/
+.containerHeader {width:100%; margin:0; padding:0; height:30px;}
+.tblContainerHeader a {color:Orange;}
+.containerHeaderText {margin:2px 5px; height:auto; display:block;}
+.highlightText {font-weight:bold;color:#2459ff}
+
+/*these need to be merged with the top top selectors*/
+.colapseSectionHeader {width:100%; margin:0; padding:0; height:30px;}
+.colapseShowHide {text-align:right;}
+/*.colapseSectionHeader td:last-child{text-align:right;}*/
+.colapseSectionHeader a{text-align:right; color:Blue; font-weight:bold;}
+
+#divCharacterListContainer {background-color:#536788; margin:15px auto; width:90%; font-weight:bold; font-size:14px; padding-bottom:15px;}
+.tblCharacterList{width: 95%; text-align:center;}
+#tblCharacterList {width: 95%; margin:auto;}
+#tblCharacterList thead {text-align:center; background-color:#0D2033}
+#tblCharacterList td{text-align:center;}
+.charListRow {font-weight:bold; background-color:#1E4975}
+.charListRowAlt {background-color:Transparent;}
+
+a {color:#003399;}
+.altLink {color:Orange;}
+.backLink {color:Orange; font-size:14px;}
+.sectionHeader{font-weight:bold; text-decoration:underline;}
+.error {color:#FF0000;}
+.errorMsg {color:#FF0000; text-align:center; height:auto; margin: 0px auto;}
+.validation-summary-errors {color:#FF0000;}
+.dialog {display:none;}
+
+.largeDDL {width: 185px; height: 30px; font-size: 18px;}
+.largeText {font-size:16px; font-weight:bold;}
+
+.nextStep {color:Orange; font-size:16px;}
+.fyiText {color:Orange; font-size: 1.1em;}
+
+/*General Forms*/
+.textboxLarge {height:20px;}
+
+/*Feedback*/
+#feedbackButton{ display:block; margin: 15px auto; } /*Button on master*/
+
+
+
+/*Nav*/
+#nav { float:right; margin: 30px 7px 0px auto; z-index:90; position:absolute; left:900px;}
+/*#nav { float:right; z-index:90; width:400px}*/
+.navButton {margin:0px; padding: 0px;}
+#nav .topNav {height:35px; border-right: solid 1px #D1D1D1;}
+#nav .last{border-right: none;}
+#nav ul {margin:0; padding:0; list-style:none;}
+#nav li {margin:0; padding:0; height:35px; width:95px; cursor:pointer; background-color:#5785A5; text-align:center; font-weight:bold; font-size: 13px; }
+#nav li a{display:block; width:100%; height:100%; text-decoration:none; padding-top:8px}
+#nav li span{display:block; width:100%; height:100%; text-decoration:none; padding-top:8px}
+
+#nav .unselected {display:none;}
+#nav .disabled {display:none;}
+
+/*footer*/
+#footer{margin:25px auto; text-align:center; color:#888888;}
+#footer a{color:#888888; text-decoration:none;}
+#footer a:hover{color:Orange; text-decoration:underline;}
+#footerLinks {list-style:none;}
+#footerLinks li{display:inline; margin:auto 5px; font-family:Times New Roman;}
+
+
+/*Index*/
+/*#promoContent {height:400px; background-color:#222222; margin:0; border:solid 2px white; }*/
+#indexMainContent {padding-right:40px; }
+#indexMainContent h1{margin:20px auto 35px 25px;}
+#indexMainContent h2{margin:35px auto 15px 25px;}
+
+.divOverviewPoint {}
+.divOverviewPoint img{float:left; display:block; margin-right:50px;}
+.divOverviewPoint p{text-align:justify; text-indent:-30px; padding-left:30px; margin-top:5px; font-size:17px; font-weight:bold;}
+
+#indexMainContent .callToAction {margin-left:280px;}
+
+/*About*/
+#goalsList {list-style:none;}
+
+#goalsList p{padding:0; margin:5px auto 15px auto; text-indent:50px;}
+
+/*Login*/
+#tblLogin {}
+#tblLogin input[type="text"]{width:150px;}
+#tblLogin input[type="password"]{width:150px;}
+/*Login Panel*/
+#divLoginPanel {font-size:12px; font-weight:bold; width:240px; display:block; margin:10px auto;}
+.loginStatus {font-size:14px;}
+/*#tblLoginPanel{display:block;  width:auto;}*/
+
+/*Event Calendar*/
+#eventCalendar {width:100%; border: solid 1px #FFF; background-color:#333333; }
+#eventCalendar thead {height:50px;}
+#eventCalendar tbody {}
+#eventCalendar td {border: solid 1px #FFFFFF; padding: 0px; margin:0xp; height:100px; width:14%; vertical-align:top;}
+#eventCalendar td span:first-child { font-weight:bold; color:#5785A5; display:block; border: solid 1px #FFF; margin:0px; padding:0px; text-align:center; height:15px; width:15px;}
+.hdlnkDayModal {display:none;}
+.dayOfMonth {}
+.dayOfMonth:hover {background-color:#666666;cursor:pointer; }
+.notDayOfMonth {color:Blue}
+.eventInfo {color:Orange; margin:5px auto; font-size:9px; text-decoration:underline}
+.hiddingEventInfo {margin:5px auto; font-size:9px; text-decoration:underline; text-align:center}
+
+/*Daily Events*/
+#tblDaysEvents { width: 550px; margin: 10px auto; display:block; text-align:center; }
+#tblDaysEvents td { }
+
+/*Add New Event*/
+#tblNewEventGameBox {margin: 10px auto; width:350px;}
+
+#eventSelection {background-color:#131313; width:650px; overflow:hidden; width:624px; height:225px; padding: 10px 0px 10px 38px;}
+#eventSelection p{font-weight:bold; text-align: center; font-size:1.2em }
+#eventSelection div{float:left; margin:0px;}
+#eventSelection .breadCrumb p{text-align:left; color:Red; }
+
+.eventGroupBox {width: 190px; float:left; margin:0px; height:100%;}
+.eventGroupBox p{color:#FFFF33; font-size:1.0em}
+.eventGroupBox ul{list-style:none; font-weight:bold; padding-left: 1em; text-indent: -1em;}
+.eventGroupBox li{padding-bottom:10px;}
+.eventGroupBox a{color:#FFFFFF; text-decoration:none;}
+.eventGroupBox a:hover{color:Orange;}
+
+.eventTypeBox {width: 190px;float:left; margin:0px; height:195px; text-align:left;}
+#divEventTypes {width: 165px;} 
+#divDetails { width: 185px;} 
+#divImage { width: 235px;} 
+#divDetails p{text-align:left; font-size: 1em;} 
+.header{text-decoration:underline; font-weight:bold;}
+.subheader{font-weight:normal; text-indent:5px;}
+#imgEventSelectionConfirm {margin:1px auto; display:block; text-align:center;}
+#btnAddEvent {margin:15px auto; display:block;}
+
+/*#divNewEventRoleRestrictions {margin:10px auto; background-color:#333333;}*/
+#divNewEventRoleRestrictionsContainer {background-color:#131313;}
+#divNewEventRoleRestrictionsContainer p{margin:7px 20px;}
+#tblNewEventRoleRestrictions {margin:auto;}
+#tblNewEventRoleRestrictions td {padding-left:10px;}
+#tblNewEventRoleRestrictions td:first-child {padding-left:0px;}
+#tblNewEventRoleRestrictions input {width:25px;}
+
+/*Add New Event - Event Selection -> Event Confirmation*/
+#tblEventInfo {margin-left: 15px; width: 350px;}
+#tblEventInfo select{margin-right:10px;}
+#divEventFormLeft{ width: 235px;} 
+#lbEventTypes {width:160px}
+
+/*Event Mgmt*/
+/*#eventSummary {background-image:url(./Images/EventSummaryBG.png); width:640px; height:350px; margin:0px; border:none; padding-left:10px;}*/
+.eventMgMtContentContainer {padding: 10px 10px 15px 10px; background-color:#131313;}
+#eventSummary { margin:0px; border:none; }
+#eventSummary .summaryMainInfoFull {width:100%;}
+#eventSummary .summaryMainInfoHalf {float:left;width:46%;}
+#eventSummary .summaryMainInfo {float:left; width:23%; margin-top:15px;}
+#eventSummary .top {margin-top:0px;}
+#eventSummary  h3 {display:inline;}
+/*#raidConfigHeader {margin-left:100px;}*/
+#editConfig { margin-left:100px; text-decoration:underline;}
+
+#classOverviewTable {height:60px; width:600px; margin-left:4px;}
+#classOverviewTable td {height:40px; padding:0px; margin:0px;}
+.tdImg { width:15px; }
+.tdRestriction { width:35px; }
+
+#rosterDiv { margin-top: 15px;}
+#rosterTable {min-width:650px; width:100%;}
+#rosterTable td{min-width:90px;text-align:center;}
+#rosterTable .creatorRow{color:Orange}
+
+#manageRoster {text-align:center; margin:10px}
+#manageRoster a{text-align:center; margin:10px; margin-left: 15px}
+
+#listRoleRestrictions {list-style:none; margin-left:0px; display:block; text-align:left; width:500px; padding:0px;}
+#listRoleRestrictions li{ display:inline; margin-right: 10px; text-align:left; }
+.restrictionLabel {font-size:1.25em; font-weight:bold;}
+#classRestLabel {margin-right:25px;}
+
+/*Register*/
+#register {margin: 30px auto; font-weight:bold;}
+.tdLeft {text-align:left; width: 100px;}
+#register input.text{color: #666666; padding-top: 2px; padding-right: 1px; padding-bottom: 2px; padding-left: 1px; width: 200px; height:15px;}
+.marketing input{margin-left: 115px; text-align:left;}
+#register input.submit {margin: 5px auto; text-align: center; width:100px;}
+
+/*Manage Character*/
+.addGamesTable {width: 620px; margin: 10px auto; padding:0;}
+/*#selectGameTable {width: 620px; margin: 10px auto; padding:0;}*/
+.selectGameLabel {width: 120px; text-align:right; padding-right:10px;}
+.selectedGameDDL {width: 200px;}
+
+#games {}
+
+#gameContainer {background-color:#000000; padding-bottom:20px; border:solid white 1px;}
+#imgGameLogo {margin-left:40px; }
+
+#divMgmtCharNextSteps{width: 450px; text-align:right; margin:30px auto;}
+
+/*Events Search*/
+#divSearchEvents {background-color:#131313; padding:10px;}
+#eventSearchBox {width:625px; margin: 0px auto 15px auto;}
+#txtSearchTerm {width:325px; margin:0px 10px;}
+.eventSearchGames {width:100px;}
+#cbShowFullEvents {}
+#lblShowFullEvents {margin-right:300px}
+
+#filters{width:625px; margin:auto;}
+.inputFieldsFirst {width:300px}
+.inputFieldsSecond {width:150px}
+#txtEventNameFilter{width:250px}
+#txtEventCreatorFilter{width:125px}
+.dateBox{width:110px}
+.timeBox {width:25px}
+
+
+/*.selectMeridian {width*/
+
+
+#divEventSearchResults {background-color:#131313; padding:10px;}
+
+/*Events overview*/
+#eventInfoTable {margin-bottom:5px;}
+.eventInfoTable {width:100%; background-color:#131313;}
+/*.inactive {background-image:url(../../Content/Images/TB.png)}*/
+.inactive {background-color:Gray;}
+#eventInfoTable td {height:30px;}
+#eventInfoTable .thumb {width:160px;}
+#eventInfoTable .button {width:115px;}
+#evtOverviewContainer {width:800px;max-height:400px; overflow-y:auto; overflow-x:hidden; }
+
+/*Modal*/
+.overlay {
+	 /*display:none;*/
+     position: absolute;
+     left: 0px;
+     top: 0px;
+     width:100%;
+     height:100%;
+     text-align:center;
+     z-index: 1000;
+     background-image:url(/Content/Images/TB.png);
+}
+
+.lightBox 
+{
+	 /*height: 450px;*/
+	 width: 600px;
+     margin: 100px auto;
+     background-color: #000000;
+     border:5px solid #FFFFFF;
+     padding: 30px;
+     text-align:left;
+}
+
+.modal {background-color:#1C384C; padding: 30px; text-align:left; height:100%;}
+.modal a{color:Orange;}
+
+/*Add Character Modal*/
+#tblAddCharacter {margin:25px auto;width:550px;}
+#modalAction {margin:auto;text-align:center;display:block;}
+#txtLevel {width:80px;} //Effects edit as well
+
+
+/*Join Event - Update Event*/
+#roleRestrictionsWarning {width:90%; margin:10px auto; border: solid 2px orange}
+#roleRestrictionsWarning strong {color:Orange;}
+#roleRestrictionsWarning ul {list-style:none;}
+#roleRestrictionsWarning li {color:Orange;}
+
+/*Ads*/
+.squareAd {height: 250px; background-color:#555555; margin: 0; }
+
+/*Settings*/
+.settingsContainer {width: 400px; margin:25px 15px; border:solid 2px #EEEEEE; padding-bottom:10px;}
+#btnSubmitSettings  {margin-left: 200px;}
+
+/*Invite Page*/
+#tblInviteByEmail {width: 450px; margin:auto auto;}
+#tblInviteByEmail td{padding-right:10px}
+#tblInviteByEmail input{width: 275px; height:17px;}
+
+/*Search Characters*/
+#tblCharacterSearchFilters {margin:10px auto;}
+#tblCharacterSearchFilters td{padding-top: 10px;}
+#tblCharacterSearchFilters .colFirst{padding-right: 10px}
+#tblCharacterSearchFilters .colSecond{padding-right: 10px}
+#tblCharacterSearchFilters .colLast{padding-right: 10px}
+#LVL {width:30px;}
+
+img  {border:none;}
+a {border:none;}
+a img {border:none;}

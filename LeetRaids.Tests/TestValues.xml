@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestValues>
+  <Register>
+    <UserName>
+      <Base>LeetRaidsTest</Base>
+      <Count>1</Count>
+    </UserName>
+    <Email>
+      <Base>LeetRaidsTTest</Base>
+      <Count>1</Count>
+      <Domain>mailinator.com</Domain>
+    </Email>
+  </Register>
+</TestValues>
